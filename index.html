@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+  	<meta charset="utf-8">
+  	<meta name="description" content="Your description goes here">
+  	<meta name="keywords" content="one, two, three">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<title>Third Stimulus Check Calculator</title>
+
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/style.css">
+		<!-- Bootstrap link -->
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+	</head>
+	<body>
+
+
+		<div class="container">
+			<div class="card container-f">
+				<div class="card-body">
+				  <h1 class="text-center">Calculate Your Third Stimmy</h1>
+				  
+				  <p>What was your filing status last time you filed your taxes?</p>
+				<div class="d-grid gap-2 d-lg-block"id="status-btn">
+					<button type="button" class="btn single-btn btn-outline-primary status" >Single</button>
+					<button type="button" class="btn married-btn btn-outline-primary status" >Married</button>
+					<button type="button" class="btn hoh-btn btn-outline-primary status">Head of Household</button>
+				</div>
+
+				  
+	
+				  <p>What was your adjusted gross income the last time you filed your taxes?</p>
+				  <div class="input-group mb-3">
+					<span class="input-group-text">$</span>
+					<input type="text" placeholder="0" class="dollar-amt form-control" aria-label="Amount (to the nearest dollar)">
+				  </div>
+				  <p>How many dependents did you claim?</p>
+				  <div class="input-group mb-3">
+					<input type="tel" maxlength="3"class="dependents form-control" placeholder="0" aria-label="Username" aria-describedby="basic-addon1">
+				  </div>
+				</div>
+				<div class="d-grid gap-2 col-11 mx-auto">
+					<button class="btn btn-primary calc-btn" type="button">Calculate</button>
+				</div>
+
+				<p class="text-center stim-description"><span id="stimmy-amt"></span></p>
+					
+				
+				
+		  	</div>
+		
+
+
+
+
+
+
+
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+		<script type="text/javascript" src="js/main.js"></script>
+	</body>
+</html>

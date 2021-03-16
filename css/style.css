@@ -1,0 +1,89 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+header {
+
+}
+
+footer {
+
+}
+
+.calc-btn{
+  margin: 0 0 1rem 0;
+}
+
+#status-btn{
+  margin: 0 0 1rem 0;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+}
+
+.card{
+  max-width: 90%;
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+}
+
+.stim-description{
+  font-size: 1rem;
+}
+
+button:active {
+  background-color: rgb(14,110,253);
+}
+
+.input-group-text {
+  background-color: #FFFF !important;
+  padding-right: 4px!important;
+}
+
+.dollar-amt {
+  border-left: none !important;
+  padding-left: 0px!important
+}
+
+.mb-3 > input {
+  max-width: 250px;
+}
+
+/* .stimmy-amt {
+  color: rgb(57, 57, 182);
+} */
+
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
